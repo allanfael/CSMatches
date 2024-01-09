@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MatchDetails /> should render screen correctly 1`] = `
+<View
+  style={
+    {
+      "marginTop": 0,
+    }
+  }
+>
+  <RCTScrollView
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View>
+        <View>
+          <View>
+            <View>
+              <View>
+                <ViewManagerAdapter_ExpoImage
+                  accessibilityLabel="image"
+                  backgroundColor={4291085508}
+                  contentFit="contain"
+                  contentPosition={
+                    {
+                      "left": "50%",
+                      "top": "50%",
+                    }
+                  }
+                  onError={[Function]}
+                  onLoad={[Function]}
+                  onLoadStart={[Function]}
+                  onProgress={[Function]}
+                  placeholder={[]}
+                  source={
+                    [
+                      {
+                        "uri": "https://cdn.pandascore.co/images/team/image/131795/nixuhlogo_square.png",
+                      },
+                    ]
+                  }
+                  style={
+                    {
+                      "backgroundColor": "#C4C4C4",
+                    }
+                  }
+                  transition={null}
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontFamily": "Roboto_400Regular",
+                    "fontSize": 10,
+                    "lineHeight": 16,
+                  }
+                }
+              >
+                Nixuh
+              </Text>
+            </View>
+            <Text
+              style={
+                {
+                  "color": "#C4C4C4",
+                  "fontFamily": "Roboto_400Regular",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                }
+              }
+            >
+              vs
+            </Text>
+            <View>
+              <View>
+                <ViewManagerAdapter_ExpoImage
+                  accessibilityLabel="image"
+                  backgroundColor={4291085508}
+                  contentFit="contain"
+                  contentPosition={
+                    {
+                      "left": "50%",
+                      "top": "50%",
+                    }
+                  }
+                  onError={[Function]}
+                  onLoad={[Function]}
+                  onLoadStart={[Function]}
+                  onProgress={[Function]}
+                  placeholder={[]}
+                  source={
+                    [
+                      {
+                        "uri": "https://cdn.pandascore.co/images/team/image/126559/goliath_gaming.png",
+                      },
+                    ]
+                  }
+                  style={
+                    {
+                      "backgroundColor": "#C4C4C4",
+                    }
+                  }
+                  transition={null}
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontFamily": "Roboto_400Regular",
+                    "fontSize": 10,
+                    "lineHeight": 16,
+                  }
+                }
+              >
+                Goliath
+              </Text>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            {
+              "color": "#fff",
+              "fontFamily": "Roboto_500Medium",
+              "fontSize": 12,
+              "lineHeight": 18,
+            }
+          }
+        >
+          Today at 11:00 AM
+        </Text>
+      </View>
+      <View>
+        <View>
+          <View>
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontFamily": "Roboto_500Medium",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                NickelBack
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#C4C4C4",
+                    "fontFamily": "Roboto_400Regular",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Alexey
+              </Text>
+            </View>
+            <View>
+              <ViewManagerAdapter_ExpoImage
+                accessibilityLabel="image"
+                backgroundColor={4291085508}
+                contentFit="cover"
+                contentPosition={
+                  {
+                    "left": "50%",
+                    "top": "50%",
+                  }
+                }
+                onError={[Function]}
+                onLoad={[Function]}
+                onLoadStart={[Function]}
+                onProgress={[Function]}
+                placeholder={[]}
+                source={
+                  [
+                    {
+                      "uri": "https://cdn.pandascore.co/images/player/image/22702/900px_nickel_back_at_dh_dehli_2019.png",
+                    },
+                  ]
+                }
+                style={
+                  {
+                    "backgroundColor": "#C4C4C4",
+                  }
+                }
+                transition={null}
+              />
+            </View>
+          </View>
+          <View>
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontFamily": "Roboto_500Medium",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Krad
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#C4C4C4",
+                    "fontFamily": "Roboto_400Regular",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Vladislav
+              </Text>
+            </View>
+            <View>
+              <ViewManagerAdapter_ExpoImage
+                accessibilityLabel="image"
+                backgroundColor={4291085508}
+                contentFit="cover"
+                contentPosition={
+                  {
+                    "left": "50%",
+                    "top": "50%",
+                  }
+                }
+                onError={[Function]}
+                onLoad={[Function]}
+                onLoadStart={[Function]}
+                onProgress={[Function]}
+                placeholder={[]}
+                source={
+                  [
+                    {
+                      "uri": "https://cdn.pandascore.co/images/player/image/22702/900px_nickel_back_at_dh_dehli_2019.png",
+                    },
+                  ]
+                }
+                style={
+                  {
+                    "backgroundColor": "#C4C4C4",
+                  }
+                }
+                transition={null}
+              />
+            </View>
+          </View>
+        </View>
+        <View>
+          <View>
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontFamily": "Roboto_500Medium",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                TRAVIS
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#C4C4C4",
+                    "fontFamily": "Roboto_400Regular",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Aleksandr
+              </Text>
+            </View>
+            <View>
+              <ViewManagerAdapter_ExpoImage
+                accessibilityLabel="image"
+                backgroundColor={4291085508}
+                contentFit="cover"
+                contentPosition={
+                  {
+                    "left": "50%",
+                    "top": "50%",
+                  }
+                }
+                onError={[Function]}
+                onLoad={[Function]}
+                onLoadStart={[Function]}
+                onProgress={[Function]}
+                placeholder={[]}
+                source={
+                  [
+                    {
+                      "uri": "https://cdn.pandascore.co/images/player/image/22702/900px_nickel_back_at_dh_dehli_2019.png",
+                    },
+                  ]
+                }
+                style={
+                  {
+                    "backgroundColor": "#C4C4C4",
+                  }
+                }
+                transition={null}
+              />
+            </View>
+          </View>
+          <View>
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#fff",
+                    "fontFamily": "Roboto_500Medium",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Forester
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#C4C4C4",
+                    "fontFamily": "Roboto_400Regular",
+                    "fontSize": 14,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                Igor
+              </Text>
+            </View>
+            <View>
+              <ViewManagerAdapter_ExpoImage
+                accessibilityLabel="image"
+                backgroundColor={4291085508}
+                contentFit="cover"
+                contentPosition={
+                  {
+                    "left": "50%",
+                    "top": "50%",
+                  }
+                }
+                onError={[Function]}
+                onLoad={[Function]}
+                onLoadStart={[Function]}
+                onProgress={[Function]}
+                placeholder={[]}
+                source={
+                  [
+                    {
+                      "uri": "https://cdn.pandascore.co/images/player/image/22702/900px_nickel_back_at_dh_dehli_2019.png",
+                    },
+                  ]
+                }
+                style={
+                  {
+                    "backgroundColor": "#C4C4C4",
+                  }
+                }
+                transition={null}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

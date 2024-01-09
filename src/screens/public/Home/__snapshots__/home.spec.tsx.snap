@@ -1,0 +1,614 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render Home correctly 1`] = `
+<View
+  style={
+    {
+      "marginTop": 0,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      ListFooterComponent={[Function]}
+      ListHeaderComponent={[Function]}
+      applyWindowCorrection={[Function]}
+      canChangeSize={true}
+      contentContainerStyle={
+        {
+          "backgroundColor": undefined,
+          "minHeight": 1,
+          "minWidth": 1,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+        }
+      }
+      contentHeight={50}
+      contentWidth={400}
+      data={
+        [
+          {
+            "id": "1",
+            "league": {
+              "image": "",
+              "name": "leagueTest",
+            },
+            "live": false,
+            "teamOne": {
+              "image": "",
+              "name": "teamOne",
+            },
+            "teamTwo": {
+              "image": "",
+              "name": "teamTwo",
+            },
+            "time": "2024-01-09T14:00:00Z",
+          },
+        ]
+      }
+      dataProvider={
+        DataProvider {
+          "_data": [
+            {
+              "id": "1",
+              "league": {
+                "image": "",
+                "name": "leagueTest",
+              },
+              "live": false,
+              "teamOne": {
+                "image": "",
+                "name": "teamOne",
+              },
+              "teamTwo": {
+                "image": "",
+                "name": "teamTwo",
+              },
+              "time": "2024-01-09T14:00:00Z",
+            },
+          ],
+          "_firstIndexToProcess": 0,
+          "_hasStableIds": true,
+          "_requiresDataChangeHandling": false,
+          "_size": 1,
+          "getStableId": [Function],
+          "rowHasChanged": [Function],
+        }
+      }
+      disableRecycling={false}
+      estimatedItemSize={50}
+      extendedState={{}}
+      externalScrollView={[Function]}
+      finalRenderAheadOffset={250}
+      forceNonDeterministicRendering={true}
+      horizontal={false}
+      initialOffset={0}
+      initialRenderIndex={0}
+      isHorizontal={false}
+      keyExtractor={[Function]}
+      layoutProvider={
+        GridLayoutProviderWithProps {
+          "_acceptableRelayoutDelta": 1,
+          "_getHeightOrWidth": [Function],
+          "_getLayoutTypeForIndex": [Function],
+          "_getSpan": [Function],
+          "_hasExpired": false,
+          "_isHorizontal": false,
+          "_lastLayoutManager": GridLayoutManager {
+            "_acceptableRelayoutDelta": 1,
+            "_getSpan": [Function],
+            "_isGridHorizontal": false,
+            "_isHorizontal": false,
+            "_layoutProvider": [Circular],
+            "_layouts": [
+              {
+                "height": 50,
+                "type": 0,
+                "width": 400,
+                "x": 0,
+                "y": 0,
+              },
+            ],
+            "_maxSpan": 1,
+            "_renderWindowSize": {
+              "height": 1000,
+              "width": 400,
+            },
+            "_totalHeight": 50,
+            "_totalWidth": 400,
+            "_window": {
+              "height": 1000,
+              "width": 400,
+            },
+          },
+          "_maxSpan": 1,
+          "_renderWindowSize": {
+            "height": 1000,
+            "width": 400,
+          },
+          "_setLayoutForType": [Function],
+          "_tempDim": {
+            "height": 0,
+            "width": 0,
+          },
+          "averageWindow": AverageWindow {
+            "currentAverage": 50,
+            "currentCount": 1,
+            "inputValues": [
+              50,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+              ,
+            ],
+            "nextIndex": 1,
+          },
+          "defaultEstimatedItemSize": 100,
+          "layoutObject": {
+            "size": undefined,
+            "span": undefined,
+          },
+          "props": {
+            "ItemSeparatorComponent": [Function],
+            "ListFooterComponent": [Function],
+            "ListFooterComponentStyle": undefined,
+            "ListHeaderComponent": [Function],
+            "ListHeaderComponentStyle": undefined,
+            "contentContainerStyle": undefined,
+            "data": [
+              {
+                "id": "1",
+                "league": {
+                  "image": "",
+                  "name": "leagueTest",
+                },
+                "live": false,
+                "teamOne": {
+                  "image": "",
+                  "name": "teamOne",
+                },
+                "teamTwo": {
+                  "image": "",
+                  "name": "teamTwo",
+                },
+                "time": "2024-01-09T14:00:00Z",
+              },
+            ],
+            "estimatedItemSize": 50,
+            "estimatedListSize": {
+              "height": 1000,
+              "width": 400,
+            },
+            "horizontal": false,
+            "keyExtractor": [Function],
+            "numColumns": 1,
+            "onEndReached": [MockFunction] {
+              "calls": [
+                [],
+              ],
+              "results": [
+                {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            },
+            "onEndReachedThreshold": 0.2,
+            "renderItem": [Function],
+            "testID": "test-flashlist",
+          },
+          "renderWindowInsets": {
+            "height": 0,
+            "width": 0,
+          },
+          "shouldRefreshWithAnchoring": true,
+        }
+      }
+      layoutSize={
+        {
+          "height": 1000,
+          "width": 400,
+        }
+      }
+      maxRenderAhead={750}
+      numColumns={1}
+      onEndReached={[Function]}
+      onEndReachedThreshold={0}
+      onEndReachedThresholdRelative={0.2}
+      onItemLayout={[Function]}
+      onLayout={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onSizeChanged={[Function]}
+      onVisibleIndicesChanged={[Function]}
+      removeClippedSubviews={false}
+      renderAheadOffset={0}
+      renderAheadStep={250}
+      renderContentContainer={[Function]}
+      renderItem={[Function]}
+      renderItemContainer={[Function]}
+      rowRenderer={[Function]}
+      scrollEventThrottle={16}
+      scrollThrottle={16}
+      scrollViewProps={
+        {
+          "contentContainerStyle": {
+            "backgroundColor": undefined,
+            "minHeight": 1,
+            "minWidth": 1,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+          },
+          "onLayout": [Function],
+          "onScrollBeginDrag": [Function],
+          "refreshControl": undefined,
+          "style": {
+            "minHeight": 1,
+            "minWidth": 1,
+          },
+        }
+      }
+      style={
+        {
+          "minHeight": 1,
+          "minWidth": 1,
+        }
+      }
+      suppressBoundedSizeException={true}
+      testID="test-flashlist"
+      windowCorrectionConfig={
+        {
+          "applyToInitialOffset": true,
+          "applyToItemScroll": true,
+          "value": {
+            "endCorrection": 0,
+            "startCorrection": 0,
+            "windowShift": -1,
+          },
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            {
+              "flexDirection": "column",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "paddingLeft": 0,
+                "paddingTop": 0,
+              }
+            }
+          />
+          <View
+            style={
+              [
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#fff",
+                  "fontFamily": "Roboto_500Medium",
+                  "fontSize": 32,
+                  "lineHeight": 38,
+                }
+              }
+            >
+              Partidas
+            </Text>
+          </View>
+          <AutoLayoutView
+            enableInstrumentation={false}
+            horizontal={false}
+            onBlankAreaEvent={[Function]}
+            onLayout={[Function]}
+            renderAheadOffset={0}
+            scrollOffset={0}
+            style={
+              {
+                "height": 50,
+                "width": 400,
+              }
+            }
+            windowSize={1000}
+          >
+            <CellContainer
+              index={0}
+              onLayout={[Function]}
+              style={
+                {
+                  "alignItems": "stretch",
+                  "flexDirection": "column",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": 400,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "column",
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#FAFAFA33",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#fff",
+                          "fontFamily": "Roboto_400Regular",
+                          "fontSize": 8,
+                          "lineHeight": 12,
+                        }
+                      }
+                    >
+                      Today at 11:00 AM
+                    </Text>
+                  </View>
+                  <View>
+                    <View>
+                      <View>
+                        <ViewManagerAdapter_ExpoImage
+                          accessibilityLabel="image"
+                          backgroundColor={4291085508}
+                          contentFit="contain"
+                          contentPosition={
+                            {
+                              "left": "50%",
+                              "top": "50%",
+                            }
+                          }
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          onLoadStart={[Function]}
+                          onProgress={[Function]}
+                          placeholder={[]}
+                          source={
+                            [
+                              {
+                                "uri": "",
+                              },
+                            ]
+                          }
+                          style={
+                            {
+                              "backgroundColor": "#C4C4C4",
+                            }
+                          }
+                          transition={null}
+                        />
+                      </View>
+                      <Text
+                        style={
+                          {
+                            "color": "#fff",
+                            "fontFamily": "Roboto_400Regular",
+                            "fontSize": 10,
+                            "lineHeight": 16,
+                          }
+                        }
+                      >
+                        teamOne
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "color": "#C4C4C4",
+                          "fontFamily": "Roboto_400Regular",
+                          "fontSize": 12,
+                          "lineHeight": 18,
+                        }
+                      }
+                    >
+                      vs
+                    </Text>
+                    <View>
+                      <View>
+                        <ViewManagerAdapter_ExpoImage
+                          accessibilityLabel="image"
+                          backgroundColor={4291085508}
+                          contentFit="contain"
+                          contentPosition={
+                            {
+                              "left": "50%",
+                              "top": "50%",
+                            }
+                          }
+                          onError={[Function]}
+                          onLoad={[Function]}
+                          onLoadStart={[Function]}
+                          onProgress={[Function]}
+                          placeholder={[]}
+                          source={
+                            [
+                              {
+                                "uri": "",
+                              },
+                            ]
+                          }
+                          style={
+                            {
+                              "backgroundColor": "#C4C4C4",
+                            }
+                          }
+                          transition={null}
+                        />
+                      </View>
+                      <Text
+                        style={
+                          {
+                            "color": "#fff",
+                            "fontFamily": "Roboto_400Regular",
+                            "fontSize": 10,
+                            "lineHeight": 16,
+                          }
+                        }
+                      >
+                        teamTwo
+                      </Text>
+                    </View>
+                  </View>
+                  <View />
+                  <View>
+                    <View>
+                      <ViewManagerAdapter_ExpoImage
+                        accessibilityLabel="image"
+                        backgroundColor={4291085508}
+                        contentFit="contain"
+                        contentPosition={
+                          {
+                            "left": "50%",
+                            "top": "50%",
+                          }
+                        }
+                        onError={[Function]}
+                        onLoad={[Function]}
+                        onLoadStart={[Function]}
+                        onProgress={[Function]}
+                        placeholder={[]}
+                        source={
+                          [
+                            {
+                              "uri": "",
+                            },
+                          ]
+                        }
+                        style={
+                          {
+                            "backgroundColor": "#C4C4C4",
+                          }
+                        }
+                        transition={null}
+                      />
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "color": "#fff",
+                          "fontFamily": "Roboto_400Regular",
+                          "fontSize": 8,
+                          "lineHeight": 12,
+                        }
+                      }
+                    >
+                      leagueTest
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </CellContainer>
+          </AutoLayoutView>
+          <CellContainer
+            index={-1}
+            style={
+              [
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              {
+                "paddingBottom": 0,
+                "paddingRight": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
