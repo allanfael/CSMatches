@@ -2,9 +2,9 @@
 
 App showcase.
 
-<img src="im1.png" width="200">
+<img src="im1.png" width="300">
 ##
-<img src="im2.png" width="200">
+<img src="im2.png" width="300">
 
 ## 🏗 How to start the project?
 
