@@ -10,6 +10,8 @@ App showcase.
 
 - You must have expo on your computer and the execute yarn ios / yarn android
 
+- Put your key inside .env EXPO_PUBLIC_KEY
+
 ## 🚨 Tests
 
 - To execute the tests:
