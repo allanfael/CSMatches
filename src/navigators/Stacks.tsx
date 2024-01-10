@@ -1,5 +1,5 @@
 import React from 'react'
-import { createStackNavigator } from '@react-navigation/stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { Home } from '@screens/public/Home'
 import { MatchDetails } from '@screens/public/MatchDetails'
 import { colors } from '@themes/colors'
@@ -8,7 +8,7 @@ import { ROUTERS } from 'utils/routers'
 
 import { ParamsRoute } from './ParamsRoute'
 
-const Stack = createStackNavigator<ParamsRoute>()
+const Stack = createNativeStackNavigator<ParamsRoute>()
 
 export const PublicStacks = () => {
   return (

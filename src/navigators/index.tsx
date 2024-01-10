@@ -4,11 +4,11 @@ import {
   DefaultTheme as NavigationDefaultTheme,
   NavigationContainer,
 } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 import { PublicStacks } from './Stacks'
 
-const MainStack = createStackNavigator()
+const MainStack = createNativeStackNavigator()
 
 export const RootNavigation = () => {
   const backgroundColor = useColors('primary')
