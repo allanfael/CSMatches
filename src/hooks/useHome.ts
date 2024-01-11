@@ -12,13 +12,16 @@ export type UseHomeProps = {
   matches: Match[]
   loading: boolean
   loadingFetchMore: boolean
+  refresh: boolean
   onFetchMore(): void
   goToDetails(value: Match): void
+  update(): void
 }
 
 export const useHome = (): UseHomeProps => {
   const [loading, setLoading] = useState(false)
   const [loadingFetchMore, setLoadingFetchMore] = useState(false)
+  const [refresh, setRefresh] = useState(false)
   const [matches, setMatches] = useState<Match[]>([])
   const [page, setPage] = useState(1)
   const isFirstRender = useRef(true)
@@ -36,6 +39,17 @@ export const useHome = (): UseHomeProps => {
       setTimeout(() => {
         isFirstRender.current = false
       }, 100)
+    }
+  }, [])
+
+  const update = useCallback(async () => {
+    try {
+      setRefresh(true)
+      const data = await api.matches(1)
+      setMatches(data)
+    } catch (error) {
+    } finally {
+      setRefresh(false)
     }
   }, [])
 
@@ -78,5 +92,7 @@ export const useHome = (): UseHomeProps => {
     onFetchMore,
     loadingFetchMore,
     goToDetails,
+    refresh,
+    update,
   }
 }

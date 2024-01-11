@@ -1,5 +1,5 @@
 import React from 'react'
-import { ActivityIndicator, View } from 'react-native'
+import { ActivityIndicator, RefreshControl, View } from 'react-native'
 import { Loading } from '@components/Loading'
 import { Screen } from '@components/Screen'
 import { Typography } from '@components/Typography'
@@ -13,8 +13,15 @@ import { Card } from './component/Card'
 import { styles } from './styles'
 
 export const Home = () => {
-  const { matches, loading, onFetchMore, loadingFetchMore, goToDetails } =
-    useHome()
+  const {
+    matches,
+    loading,
+    onFetchMore,
+    loadingFetchMore,
+    goToDetails,
+    refresh,
+    update,
+  } = useHome()
 
   const color = useColors('text')
 
@@ -57,6 +64,9 @@ export const Home = () => {
         <FlashList
           testID="test-flashlist"
           contentContainerStyle={styles.content as ContentStyle}
+          refreshControl={
+            <RefreshControl refreshing={refresh} onRefresh={update} />
+          }
           ListHeaderComponent={HeaderComponent}
           ListHeaderComponentStyle={styles.header}
           ListFooterComponent={FooterComponent}
